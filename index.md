@@ -1,7 +1,7 @@
 ---
 layout: default
 home: true
-description: Documentation for the Liquid template language, created by Shopify.
+description: Shopify에서 제작한 Liquid 템플릿 언어에 대한 공식 문서
 ---
 
 {% include home-banner.html %}
