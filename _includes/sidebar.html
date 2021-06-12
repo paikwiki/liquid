@@ -12,7 +12,13 @@
   <nav class="sidebar__nav">
     <div class="sidebar__nav-interior">
       {%- for section in sections -%}
-        <h3 class="section__header" id="{{ section }}-section">{{ section | capitalize }}</h3>
+        <h3 class="section__header" id="{{ section }}-section">
+          {%- case section -%}
+            {%- when "basics" -%}   기본
+            {%- when "tags" -%}     태그
+            {%- when "filters" -%}  필터
+          {%- endcase -%}
+        </h3>
 
         <ul class="section__links">
         {%- for item in site[section] -%}
