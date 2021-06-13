@@ -73,7 +73,7 @@ Liquid는 동적 컨텐츠를 보여주기 위해 **템플릿 파일**에 [**객
 
 **Filters** change the output of a Liquid object or variable. They are used within double curly braces `{% raw %}{{ }}{% endraw %}` and [variable assignment]({{ "/tags/variable/" | prepend: site.baseurl }}), and are separated by a pipe character `|`.
 
-**필터**는 Liquid 객체와 변수의 출력을 바꿔 줍니다. 이중 중괄호 `{% raw %}{{ }}{% endraw %}` 내부에서 사용하며, [변수를 대입]({{ "/tags/variable/" | prepend: site.baseurl }})합니다.
+**필터**는 Liquid 객체와 변수의 출력을 바꿔 줍니다. 이중 중괄호 `{% raw %}{{ }}{% endraw %}` 내부와 [변수 대입]({{ "/tags/variable/" | prepend: site.baseurl }})에 사용하며, 파이프 문자 `|`로 구분합니다.
 
 <p class="code-label">입력</p>
 ```liquid
